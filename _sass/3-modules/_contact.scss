@@ -16,10 +16,12 @@
     line-height: 24px;
     letter-spacing: 2px;
     text-transform: uppercase;
+    display: flex;
+    align-items: center;
     &:hover {
       color: $dark;
     }
-    i {
+    ion-icon {
       margin-right: 5px;
     }
     @media only screen and (max-width: $tablet) {

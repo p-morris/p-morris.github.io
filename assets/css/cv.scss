@@ -1,0 +1,104 @@
+---
+---
+
+@import '_includes/main.scss';
+
+article a {
+    letter-spacing: 0.5px;
+    color: $cv-link-color;
+    text-decoration: underline;
+}
+
+.page-head__title {
+    display: none;
+}
+
+.cv-header {
+    display: grid;
+    grid-template-columns: auto min-content;
+    grid-template-rows: auto;
+    margin-bottom: 30px;
+}
+
+.say-hello {
+    margin-left: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+    li a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+    }
+    li a ion-icon {
+        color: $dark;
+        margin-right: 10px;
+    }
+}
+
+.name {
+    font-family: $heading-font-family;
+    font-size: $font-size-h1;
+    font-weight: $heading-font-weight;
+    margin-bottom: 0;
+}
+
+.city {
+    margin-bottom: 0;
+}
+
+.city, .degree {
+    color: $gray;
+}
+
+.intro {
+    font-family: $heading-font-family;
+    font-size: $font-size-h1;
+    font-weight: $heading-font-weight;
+    margin-bottom: 60px;
+    line-height: 1.3em;
+    letter-spacing: 1px;
+}
+
+.intro::before {
+    position: relative;
+    top: 20px;
+    content: "\201C";
+    font-size: 200%;
+    margin-right: 5px;
+}
+
+.contact-list {
+    margin-left: 0;
+    list-style-type: none;
+    .contact__link {
+        display: flex;
+        align-items: center;
+    }
+    ion-icon {
+        color: $dark;
+        margin-right: 5px;
+    }
+}
+
+.job-title {
+    font-size: 42px;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+
+.tag-list {
+    list-style-type: none;
+    line-height: 2em;
+    margin-left: 0;
+    margin-bottom: 60px;
+}
+
+.tag-list li {
+    font-size: 14px;
+    display: inline;
+    background-color: $brand-color;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    margin-right: 2px;
+    letter-spacing: 1px;
+}
