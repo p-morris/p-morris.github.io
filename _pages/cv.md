@@ -2,7 +2,6 @@
 layout: page
 title: CV
 permalink: /cv/
-custom_css: cv
 ---
 <div class="cv-header">
     <div>
