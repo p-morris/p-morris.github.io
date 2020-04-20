@@ -37,11 +37,11 @@ Created the [Florence](https://apps.apple.com/gb/app/florence-nurse-carer-shifts
 * Interaction design for the Florence nurse app.
 
 {: .tag-list}
+* `Full Stack`
 * `Clean`
 * `MVI`
 * `MVVM`
 * `Swift`
-* `Full Stack`
 * `Rails`
 * `Ruby`
 * `EventKit`

@@ -18,7 +18,7 @@ $(document).ready(function() {
     var initialScroll;
     $(window).scroll(function () {
       var scroll = $(this).scrollTop();
-      if (scroll > initialScroll && initialScroll > 100) {
+      if (scroll > initialScroll && initialScroll > 0) {
         $('.header').addClass('is-hide');
       } else {
         $('.header').removeClass('is-hide');

@@ -9,10 +9,12 @@ article a {
 }
 
 .cv-header {
-    display: grid;
-    grid-template-columns: auto min-content;
-    grid-template-rows: auto;
-    margin-bottom: 30px;
+    @media(min-width: $tablet) {
+        display: grid;
+        grid-template-columns: auto min-content;
+        grid-template-rows: auto;
+    }
+    margin-bottom: 60px;
 }
 
 .say-hello {
@@ -56,7 +58,7 @@ article a {
 
 .intro::before {
     position: relative;
-    top: 20px;
+    top: 0px;
     content: "\201C";
     font-size: 200%;
     margin-right: 5px;
