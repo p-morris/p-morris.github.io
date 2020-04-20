@@ -9,12 +9,12 @@ article a {
 }
 
 .cv-header {
+    margin-bottom: 60px;
     @media(min-width: $tablet) {
         display: grid;
         grid-template-columns: auto min-content;
         grid-template-rows: auto;
     }
-    margin-bottom: 60px;
 }
 
 .say-hello {
