@@ -131,7 +131,7 @@ Created BRAINS; an enterprise iPad app used to provide analytics and visualise S
 > ## Contract iOS Developer
 > <cite>Mubaloo Ltd, 2011</cite>
 
-Developed SalesConnect; an enterprise iPad app featured in the [Financial Times](/assets/schroders-sales-connect.pdf). SalesConnect is used to manage, view and curate presentations from Microsoft Sharepoint documents, and was developed for the internal use of the investmnet bank Schroders.
+Developed SalesConnect; an enterprise iPad app featured in the [Financial Times](/assets/schroders-sales-connect.pdf). SalesConnect is used to manage, view and curate presentations from Microsoft Sharepoint documents, and was developed for the internal use of the investment bank Schroders.
 
 * Nominated for "Best Developer of an Enterprise App" at the 2012 Mobile Entertainment Awards.
 
