@@ -2,6 +2,8 @@
 layout: page
 title: CV
 permalink: /cv/
+navigable: true
+scss: cv
 ---
 <div class="cv-header">
     <div>
