@@ -23,7 +23,7 @@
     {% if page.scss %}
       {% include {{ page.scss }}.scss %}
     {% endif %}
-    {% if page.layout %}
+    {% if page.layout == "work" %}
       {% include work.scss %}
     {% endif %}
   {% endcapture %}
