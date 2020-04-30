@@ -31,7 +31,7 @@ scss: cv
 Created the [Florence](https://apps.apple.com/gb/app/florence-nurse-carer-shifts/id1481958477) iOS app; allowing nurses and carers to book care home shifts on the move, and get paid.
 
 {: .work-list}
-* Built the shift booking iOS app from the ground up, adopting a `Clean` architecture with `MVI` based view/interaction layer.
+* Built the shift booking iOS app from the ground up, adopting a `Clean` architecture with `MVP` based view/interaction layer.
 * Full test coverage.
 * Learned `Ruby/Rails` and worked on the entire stack; implementing restful API features, and the app notifications strategy on the company's `Rails` back end.
 * Implemented an iPad app used to clock nurses in at a shift, using an `MVVM` architecture.
@@ -41,7 +41,7 @@ Created the [Florence](https://apps.apple.com/gb/app/florence-nurse-carer-shifts
 {: .tag-list}
 * `Full Stack`
 * `Clean`
-* `MVI`
+* `MVP`
 * `MVVM`
 * `Swift`
 * `Rails`
