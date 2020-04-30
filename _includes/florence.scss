@@ -1,108 +1,108 @@
-@media(min-width: $tablet) {
-    .article-container {
-        width: 80%;
-        margin: auto;
-    }
-}
+// @media(min-width: $tablet) {
+//     .article-container {
+//         width: 80%;
+//         margin: auto;
+//     }
+// }
 
-.page-head {
-    display: none;
-}
+// .page-head {
+//     display: none;
+// }
 
-.header {
-    background-color: transparent;
-}
+// .header {
+//     background-color: transparent;
+// }
 
-.florence-header-background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: rgb(245,242,253);
-    background: linear-gradient( rgba(245,242,253,1) 0%, rgba(231,225,250,1) 100%);
-    height: 550px;
-    z-index: -1;
-}
+// .florence-header-background {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     background: rgb(245,242,253);
+//     background: linear-gradient( rgba(245,242,253,1) 0%, rgba(231,225,250,1) 100%);
+//     height: 550px;
+//     z-index: -1;
+// }
 
-.florence-header {
-    height: 430px;
-    margin-top: 30px;
-    display: flex;
-    align-items: center;
-    .phone {
-        @media(min-width: $tablet) {
-            position: relative;
-            left: 5%;
-            margin-left: auto;
-            margin-right: auto;
-            max-width: 600px;
-        }
-    }
-    @media (min-width: $desktop) {
-        margin-top: 0px;
-    }
-}
+// .florence-header {
+//     height: 430px;
+//     margin-top: 30px;
+//     display: flex;
+//     align-items: center;
+//     .phone {
+//         @media(min-width: $tablet) {
+//             position: relative;
+//             left: 5%;
+//             margin-left: auto;
+//             margin-right: auto;
+//             max-width: 600px;
+//         }
+//     }
+//     @media (min-width: $desktop) {
+//         margin-top: 0px;
+//     }
+// }
 
-.florence-title h1 {
-    font-size: 50px;
-    margin-bottom: 0;
-}
+// .florence-title h1 {
+//     font-size: 50px;
+//     margin-bottom: 0;
+// }
 
-.florence-header {
-    display: grid;
-    grid-template-columns: 250px auto;
-    grid-template-rows: auto;
-    @media(max-width: $mobile) {
-        display: grid;
-        grid-template-columns: auto;
-        grid-template-rows: auto;
-        .phone {
-            order: 1;
-        }
-        .florence-title {
-            order: 2;
-        }
-    }
-}
+// .florence-header {
+//     display: grid;
+//     grid-template-columns: 250px auto;
+//     grid-template-rows: auto;
+//     @media(max-width: $mobile) {
+//         display: grid;
+//         grid-template-columns: auto;
+//         grid-template-rows: auto;
+//         .phone {
+//             order: 1;
+//         }
+//         .florence-title {
+//             order: 2;
+//         }
+//     }
+// }
 
-.video-copy {
-    height: 100%;
-    margin-right: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    @media(max-width: $mobile) {
-        margin-right: 0;
-    }
-}
+// .video-copy {
+//     height: 100%;
+//     margin-right: 40px;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     @media(max-width: $mobile) {
+//         margin-right: 0;
+//     }
+// }
 
-.video-container {
-    display: grid;
-    grid-template-columns: auto auto;
-    margin-top: 100px;
-    @media(max-width: $mobile) {
-        grid-template-columns: auto;
-        grid-template-rows: auto auto;
-    }
-}
+// .video-container {
+//     display: grid;
+//     grid-template-columns: auto auto;
+//     margin-top: 100px;
+//     @media(max-width: $mobile) {
+//         grid-template-columns: auto;
+//         grid-template-rows: auto auto;
+//     }
+// }
 
-.video-container .florence-video {
-    background-color: white;
-    width: 250px;
-    @media(max-width: $mobile) {
-        margin: 0 auto;
-    }
-}
+// .video-container .florence-video {
+//     background-color: white;
+//     width: 250px;
+//     @media(max-width: $mobile) {
+//         margin: 0 auto;
+//     }
+// }
 
-@media(min-width: $tablet) {
-    .video-left {
-        .video-copy {
-            margin-left: 40px;
-            margin-right: 0;
-            order: 2;
-        }
-        .florence-video {
-            order: 1;
-        }
-    }
-}
+// @media(min-width: $tablet) {
+//     .video-left {
+//         .video-copy {
+//             margin-left: 40px;
+//             margin-right: 0;
+//             order: 2;
+//         }
+//         .florence-video {
+//             order: 1;
+//         }
+//     }
+// }

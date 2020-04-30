@@ -23,6 +23,9 @@
     {% if page.scss %}
       {% include {{ page.scss }}.scss %}
     {% endif %}
+    {% if page.layout %}
+      {% include work.scss %}
+    {% endif %}
   {% endcapture %}
   {{ include_to_scssify | scssify }}
   </style>
