@@ -1,0 +1,71 @@
+---
+layout: page
+---
+
+<div class="work-header-background"></div>
+
+<div class="work-header">
+    <div class="work-title">
+        <h1>{{ page.title }}</h1>
+        <p>{{ page.tagline }}</p>
+    </div>
+    <div class="work-phone">
+        <img src="/images/{{page.image}}" class="head-img" />
+    </div>
+</div>
+
+<div class="work-video-container">
+    <div class="work-video-copy">
+        <h2>{{ page.example1-title }}</h2>
+        <p>{{ page.example1-copy }}</p>
+    </div>
+    <div class="work-video">
+        <img src="/images/{{page.example1-image}}" />
+    </div>
+</div>
+{% if page.example2-title and page.example2-copy and page.example2-image %}
+<div class="work-video-container work-video-left">
+    <div class="work-video-copy">
+        <h2>{{ page.example2-title }}</h2>
+        <p>{{ page.example2-copy }}</p>
+    </div>
+    <div class="work-video">
+        <img src="/images/{{page.example2-image}}" />
+    </div>
+</div>
+{% endif %}
+{% if page.example3-title and page.example3-copy and page.example3-image %}
+<div class="work-video-container">
+    <div class="work-video-copy">
+        <h2>{{ page.example3-title }}</h2>
+        <p>{{ page.example3-copy }}</p>
+    </div>
+    <div class="work-video">
+        <img src="/images/{{page.example3-image}}" />
+    </div>
+</div>
+{% endif %}
+{% if page.example4-title and page.example4-copy and page.example4-image %}
+<div class="work-video-container work-video-left">
+    <div class="work-video-copy">
+        <h2>{{ page.example4-title }}</h2>
+        <p>{{ page.example4-copy }}</p>
+    </div>
+    <div class="work-video">
+        <img src="/images/{{page.example4-image}}" />
+    </div>
+</div>
+{% endif %}
+{% if page.example5-title and page.example5-copy and page.example5-image %}
+<div class="work-video-container">
+    <div class="work-video-copy">
+        <h2>{{ page.example5-title }}</h2>
+        <p>{{ page.example5-copy }}</p>
+    </div>
+    <div class="work-video">
+        <img src="/images/{{page.example5-image}}" />
+    </div>
+</div>
+{% endif %}
+
+{{ content }}
