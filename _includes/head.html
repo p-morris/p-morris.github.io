@@ -20,11 +20,11 @@
   <style>
   {% capture include_to_scssify %}
     {% include main.scss %}
-    {% if page.scss %}
-      {% include {{ page.scss }}.scss %}
-    {% endif %}
     {% if page.layout == "work" %}
       {% include work.scss %}
+    {% endif %}
+    {% if page.scss %}
+      {% include {{ page.scss }}.scss %}
     {% endif %}
   {% endcapture %}
   {{ include_to_scssify | scssify }}

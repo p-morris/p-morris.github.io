@@ -25,7 +25,7 @@ layout: page
         </video>
     </div>
 </div>
-
+{% if page.example2-title and page.example2-copy and page.example2-video %}
 <div class="work-video-container work-video-left">
     <div class="work-video-copy">
         <h2>{{ page.example2-title }}</h2>
@@ -37,7 +37,8 @@ layout: page
         </video>
     </div>
 </div>
-
+{% endif %}
+{% if page.example3-title and page.example3-copy and page.example3-video %}
 <div class="work-video-container">
     <div class="work-video-copy">
         <h2>{{ page.example3-title }}</h2>
@@ -49,6 +50,7 @@ layout: page
         </video>
     </div>
 </div>
+{% endif %}
 {% if page.example4-title and page.example4-copy and page.example4-video %}
 <div class="work-video-container work-video-left">
     <div class="work-video-copy">

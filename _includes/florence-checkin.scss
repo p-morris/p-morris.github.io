@@ -1,0 +1,17 @@
+.work-header-background {
+    background: rgb(245,242,253);
+    background: linear-gradient( rgba(245,242,253,1) 0%, rgba(231,225,250,1) 100%);
+}
+
+.work-video-container {
+    grid-template-columns: 1.75fr 2fr;
+}
+
+.work-video {
+    width: 450px;
+}
+
+.work-video video {
+    width: 450px;
+    height: 598px;
+}
