@@ -20,7 +20,7 @@
   <style>
   {% capture include_to_scssify %}
     {% include main.scss %}
-    {% if page.layout == "work" %}
+    {% if page.layout == "work" or page.layout == "work-images" %}
       {% include work.scss %}
     {% endif %}
     {% if page.scss %}

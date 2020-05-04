@@ -35,6 +35,7 @@ Created the [Florence](https://apps.apple.com/gb/app/florence-nurse-carer-shifts
 * Full test coverage.
 * Learned `Ruby/Rails` and worked on the entire stack; implementing restful API features, and the app notifications strategy on the company's `Rails` back end.
 * Implemented an iPad app used to clock nurses in at a shift, using an `MVVM` architecture.
+* Set up CI using Bitrise, and established git and release procedures.
 * Worked closely with the Head of UX to iterate on prototypes to make the most of user research.
 * Interaction design for the Florence nurse app.
 
@@ -50,6 +51,8 @@ Created the [Florence](https://apps.apple.com/gb/app/florence-nurse-carer-shifts
 * `Mixpanel`
 * `OneSignal`
 * `DeepLinking`
+* `CI`
+* `BitRise`
 
 > {: .job-title}
 > ## iOS Developer
