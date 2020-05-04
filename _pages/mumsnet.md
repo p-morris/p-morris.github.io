@@ -2,22 +2,19 @@
 layout: work
 permalink: /ios/mumsnet-talk/
 title: Mumsnet Talk
-tagline:
-image:
-example1-title:
-example1-video:
-example1-copy:
-example2-title:
-example2-video:
-example2-copy:
-example3-title:
-example3-video:
-example3-copy:
-example4-title:
-example4-video:
-example4-copy:
-example5-title:
-example5-video:
-example5-copy:
+tagline: A social forum for parents with 25 million visitors per month.
+image: mumsnet.png
+example1-title: Start a conversation
+example1-video: mumsnet-thread.mp4
+example1-copy: Use the rich text editor to create a conversation. Use markdown or visual formatting tools to format your post.
+example2-title: Choose a color scheme
+example2-video: mumsnet-colors.mp4
+example2-copy: Support for a variety of color schems to suit the user's reading preferences.
+example3-title: Bookmark your place
+example3-video: mumsnet-bookmarks.mp4
+example3-copy: Save your place in long threads and jump straight back later to continue reading.
+example4-title: Share your photos
+example4-video: mumsnet-media.mp4
+example4-copy: Add photos your post, and share them with other Mumsnetters.
 scss: mumsnet
 ---
