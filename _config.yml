@@ -1,13 +1,13 @@
 title: Pete Morris
 logo: # You can add own logo. For example '/images/logo.png'.
-description: Melotta is a modern and minimal Jekyll theme for sharing your ideas.
+description: Pete Morris is a mobile applications developer specialising in iOS apps.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://petemorris.dev" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author Settings
 author:
-  name: Sasha Levi
-  image: '/images/01.jpg'
+  name: Pete Morris
+  image: '/images/me.png'
 
 # Contact links
 # Example of adding a new link to the footer - {name: "Github", icon: "ion-logo-github", link: "https://github.com"}
