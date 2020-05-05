@@ -1,0 +1,66 @@
+.project {
+    margin-top: 30px;
+}
+
+.project a {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    h2 {
+        font-size: 32px;
+        margin: 0 0 0 30px;
+        display: flex;
+        align-items: center;
+    }
+    @media (max-width: $mobile) {
+        h2 {
+            font-size: 18px;
+        }
+    }
+}
+
+.project a img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.florence {
+    background: rgb(245,242,253);
+    background: linear-gradient( rgba(245,242,253,1) 0%, rgba(231,225,250,1) 100%);
+}
+
+.mumsnet {
+    background: rgba(94,163,208,1);
+    background: linear-gradient( rgba(144,213,255,1) 0%, rgba(102,197,255,1) 100%);
+}
+
+.raffler {
+    background: rgb(52,175,188);
+    background: linear-gradient( rgb(102,225,238) 0%, rgb(72,195,208) 100%);
+}
+
+.brains {
+    background: rgba(97,127,178,1);
+    background: linear-gradient( rgba(187,207,255,1) 0%, rgba(137,167,218,1) 100%);
+}
+
+.checkin {
+    background: rgb(245,242,253);
+    background: linear-gradient( rgba(245,242,253,1) 0%, rgba(231,225,250,1) 100%);
+}
+
+.page-head {
+    display: none;
+}
+
+.left {
+    a {
+        grid-template-columns: 2fr 1fr;
+    }
+    a h2 {
+        margin: 0 30px 0 0;
+        order: 2;
+    }
+    a image {
+        order: 1;
+    }
+}
