@@ -1,6 +1,6 @@
 ---
 layout: work
-permalink: /ios/mumsnet-talk/
+permalink: /my-work/mumsnet-talk/
 title: Mumsnet Talk
 tagline: A social forum for parents with 25 million visitors per month.
 image: mumsnet.png

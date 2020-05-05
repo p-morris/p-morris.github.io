@@ -1,6 +1,6 @@
 ---
 layout: work
-permalink: /ios/raffler/
+permalink: /my-work/raffler/
 title: Raffler
 tagline: The App Store's first free ad-supported lottery.
 image: raffler-app.png

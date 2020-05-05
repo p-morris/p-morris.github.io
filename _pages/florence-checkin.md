@@ -1,6 +1,6 @@
 ---
 layout: work
-permalink: /ios/florence-checkin/
+permalink: /my-work/florence-checkin/
 title: Florence Check In
 tagline: Clocking in at care home shifts.
 image: florence-checkin.png

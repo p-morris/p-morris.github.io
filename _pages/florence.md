@@ -1,6 +1,6 @@
 ---
 layout: work
-permalink: /ios/florence/
+permalink: /my-work/florence/
 title: Florence
 tagline: Helping nurses find shifts at care homes that need staff.
 image: florence-app.png

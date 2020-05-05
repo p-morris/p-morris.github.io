@@ -1,6 +1,6 @@
 ---
 layout: work-images
-permalink: /ios/brains/
+permalink: /my-work/brains/
 title: Brains
 tagline: Generating insights from SAP sales data.
 image: brainsapp-0.png
