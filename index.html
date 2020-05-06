@@ -1,24 +1,30 @@
 ---
-layout: default
+layout: page
 ---
-{% include slider.html %}
-
-<div class="container">
-  <div class="row">
-    <div class="col col-12 col-d-10 col-m-12 push-m-0 push-d-1">
-      <div class="container__inner">
-        <div class="contaniner__inner-box">
-          <div class="row grid">
-            {% if site.posts.size > 0 %}
-              {% for post in paginator.posts %}
-                {% include article-content.html %}
-              {% endfor %}
-            {% endif %}
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-{% include pagination.html %}
+<style>
+  h1 {
+    font-size: 26px;
+    margin-bottom: 40px;
+    color: #444;
+  }
+  p {
+    font-family: 'Gentium Basic', serif;
+    font-size: 36px;
+    margin-bottom: 45px;
+    letter-spacing: 0.5px;
+    color: #444;
+    line-height: 1.2em;
+  }
+  .ps {
+    font-size: 23px;
+    letter-spacing: 0.5px;
+    line-height: 1.4em;
+    margin-bottom: 15px;
+  }
+</style>
+<h1>Hi. I'm Pete.</h1>
+<p>I ❤️ apps that <span style="text-decoration: underline;">delight</span> people.</p>
+<p>I ❤️ <span style="text-decoration: underline;">testable</span> code, that is easy to build upon.</p>
+<div class="padd"></div>
+<p class="ps">I've specialised in iOS for 9 years, but I love cross-functional teams.</p>
+<p class="ps">Currently falling in love with Flutter... 😻</p>
