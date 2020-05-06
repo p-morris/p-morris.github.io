@@ -15,7 +15,12 @@
 .work-video-container .work-video {
     width: 450px;
     @media(max-width: $tablet) {
+        width: 500px;
+        margin: auto;
+    }
+    @media(max-width: $mobile) {
         width: 300px;
+        margin: auto;
     }
 }
 
