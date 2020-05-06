@@ -5,7 +5,7 @@
 
 .work-video-container {
     grid-template-columns: 1.75fr 2fr;
-    @media(max-width: $mobile) {
+    @media(max-width: $tablet) {
         grid-template-columns: auto;
         grid-template-rows: auto auto;
     }
@@ -14,7 +14,7 @@
 
 .work-video-container .work-video {
     width: 450px;
-    @media(max-width: $mobile) {
+    @media(max-width: $tablet) {
         width: 300px;
     }
 }
@@ -22,7 +22,7 @@
 .work-video video {
     width: 450px;
     height: 598px;
-    @media(max-width: $mobile) {
+    @media(max-width: $tablet) {
         width: 100%;
         height: auto;
     }
