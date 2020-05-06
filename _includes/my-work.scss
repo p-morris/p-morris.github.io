@@ -25,27 +25,32 @@
 
 .florence {
     background: rgb(245,242,253);
-    background: linear-gradient( rgba(245,242,253,1) 0%, rgba(231,225,250,1) 100%);
+    // background: linear-gradient( 270deg, rgba(245,242,253,1) 0%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(245,242,253,1) 25%, rgba(255,255,255,1) 100%);
 }
 
 .mumsnet {
     background: rgba(94,163,208,1);
-    background: linear-gradient( rgba(144,213,255,1) 0%, rgba(102,197,255,1) 100%);
+    // background: linear-gradient( 90deg, rgba(144,213,255,0.3) 0%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(144,213,255,0.2) 25%, rgba(255,255,255,1) 100%);
 }
 
 .raffler {
     background: rgb(52,175,188);
-    background: linear-gradient( rgb(102,225,238) 0%, rgb(72,195,208) 100%);
+    //background: linear-gradient( 270deg, rgba(102,225,238, 0.3) 0%, rgb(255,255,255) 100%);
+    background: linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(102,225,238, 0.3) 25%, rgba(255,255,255,1) 100%);
 }
 
 .brains {
     background: rgba(97,127,178,1);
-    background: linear-gradient( rgba(187,207,255,1) 0%, rgba(137,167,218,1) 100%);
+    // background: linear-gradient( 90deg, rgba(187,207,255,0.5) 0%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(187,207,255,0.3) 25%, rgba(255,255,255,1) 100%);
 }
 
 .checkin {
     background: rgb(245,242,253);
-    background: linear-gradient( rgba(245,242,253,1) 0%, rgba(231,225,250,1) 100%);
+    // background: linear-gradient( 270deg, rgba(245,242,253,1) 0%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(245,242,253,1) 25%, rgba(255,255,255,1) 100%);
 }
 
 .page-head {
