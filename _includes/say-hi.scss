@@ -1,0 +1,33 @@
+.say-hello {
+    margin-top: 30px;
+    list-style-type: none;
+    li {
+        padding: 5px 0 5px 0;
+    }
+    li a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+    }
+    li a ion-icon {
+        color: $dark;
+        margin-right: 10px;
+    }
+    li a:hover {
+        color: $cv-link-color;
+    }
+}
+
+.page-head__title {
+    padding-left: 20px;
+}
+
+p {
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
+
+.page-head {
+    padding-left: 0;
+    margin-top: 60px;
+}
