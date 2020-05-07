@@ -31,7 +31,7 @@ scss: cv
 Created the [Florence](https://apps.apple.com/gb/app/florence-nurse-carer-shifts/id1481958477) iOS app; allowing nurses and carers to book care home shifts on the move, and get paid.
 
 {: .work-list}
-* Built the shift booking iOS app from the ground up, adopting a `Clean` architecture with `VIPER` based view/interaction/routing layers.
+* Built the Florence iOS app from the ground up, adopting a `Clean` architecture.
 * Full test coverage.
 * Learned `Ruby/Rails` and worked on the entire stack; implementing restful API features, and the app notifications strategy on the company's `Rails` back end.
 * Implemented an iPad app used to clock nurses in at a shift, using an `MVVM` architecture.
@@ -44,7 +44,6 @@ Created the [Florence](https://apps.apple.com/gb/app/florence-nurse-carer-shifts
 * `Clean`
 * `SOLID`
 * `Dependancy Inversion`
-* `VIPER`
 * `MVVM`
 * `Swift`
 * `Rails`
@@ -63,7 +62,7 @@ Created the [Florence](https://apps.apple.com/gb/app/florence-nurse-carer-shifts
 Created the [Raffler](https://www.telegraph.co.uk/men/thinking-man/raffler-introducing-the-app-that-could-win-you-1000-with-the-tou/) iOS app; a number one Lifestyle app in the UK and US.
 
 {: .work-list}
-* Built the app from the ground up, adopting an `MVVM` architecture.
+* Built the app from the ground up, adopting a `VIPER` based architecture.
 * Developed an open-source framework for [waterfalling ad requests](https://github.com/p-morris/WaterfallKit), achieving a 100% advertising fill-rate.
 * Built a "Snapchat Stories" type feature, in which videos, interactive games, and other widgets could be embedded in a full-screen newsfeed.
 * Developed and optimised an adaptive sales funnel within the app, which became the company's biggest source of revenue.
@@ -72,7 +71,7 @@ Created the [Raffler](https://www.telegraph.co.uk/men/thinking-man/raffler-intro
 * Maintained the existing Android app.
 
 {: .tag-list}
-* `MVVM`
+* `VIPER`
 * `iOS`
 * `Android`
 * `Swift`
