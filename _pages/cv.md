@@ -21,7 +21,7 @@ scss: cv
 </div>
 
 <div>
-    <p class="intro">I love making apps that are testable, easy to maintain, and nice to use.</p>
+    <p class="intro">I love making apps that are testable, easy to build upon, and delightful to use.</p>
 </div>
 
 > {: .job-title}
