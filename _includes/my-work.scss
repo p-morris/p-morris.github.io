@@ -2,18 +2,43 @@
     margin-top: 30px;
 }
 
+
 .project a {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    h2 {
+    div {
+        margin: auto 0 auto 30px;
+    }
+    div h2 {
         font-size: 32px;
-        margin: 0 0 0 30px;
-        display: flex;
-        align-items: center;
+    }
+    div p {
+        margin-bottom: 0;
+        height: 50px;
+        background-color: rgba(127,90,243,1);
+        text-align: center;
+        box-shadow: 0 5px 10px -5px #97e;
+        color: white;
+        font-weight: 600;
+        display: table-cell;
+        vertical-align: middle;
+        padding: 0 15px;
+        border-radius: 10px;
     }
     @media (max-width: $mobile) {
-        h2 {
+        div h2 {
             font-size: 18px;
+            margin-bottom: 10px;
+        }
+        div p {
+            box-shadow: none;
+            background: none;
+            display: inline;
+            text-align: left;
+            vertical-align: top;
+            padding: 0;
+            border-radius: 0;
+            text-decoration: underline;
         }
     }
 }
@@ -61,11 +86,55 @@
     a {
         grid-template-columns: 2fr 1fr;
     }
-    a h2 {
-        margin: 0 30px 0 0;
+    a div {
+        margin: auto 30px auto 0;
         order: 2;
     }
     a image {
         order: 1;
+    }
+}
+
+.project a div {
+    .florence-button {
+        background-color: rgba(127,90,243,1);
+        box-shadow: 0 5px 10px -5px rgba(127,90,243,1)
+    }
+    .mumsnet-button {
+        background-color: rgba(43,119,167,1);
+        box-shadow: 0 5px 10px -5px rgba(43,119,167,1);
+    }
+    .brains-button {
+        background-color: rgba(99,132,189,1);
+        box-shadow: 0 5px 10px -5px rgba(99,132,189,1);
+    }
+    .raffler-button {
+        background-color: rgba(68,190,170,1);
+        box-shadow: 0 5px 10px -5px rgba(68,190,170,1);
+    }
+    .checkin-button {
+        background-color: rgba(36,196,170,1);
+        box-shadow: 0 5px 10px -5px rgba(36,196,170,1);
+    }
+    @media (max-width: $mobile) {
+        .florence-button, .mumsnet-button, .raffler-button, .brains-button, .checkin-button {
+            background-color: transparent;
+            box-shadow: none;
+        }
+        .florence-button {
+            color: rgba(127,90,243,1)
+        }
+        .mumsnet-button {
+            color: rgba(43,119,167,1);
+        }
+        .brains-button {
+            color: rgba(99,132,189,1);
+        }
+        .raffler-button {
+            color: rgba(68,190,170,1);
+        }
+        .checkin-button {
+            color: rgba(36,196,170,1);
+        }
     }
 }
