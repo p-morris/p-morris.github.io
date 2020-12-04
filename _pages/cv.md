@@ -25,8 +25,33 @@ scss: cv
 </div>
 
 > {: .job-title}
+> ## iOS Developer
+> <cite>Triller, 2020 - Present</cite>
+
+[Triller](https://apps.apple.com/us/app/triller-social-video-platform/id994905763) has been a number 1 App Store app in 50 countries.
+
+* Collaborated on rebuilding the iOS app's camera from the ground up, with new features including multiple takes, take editing, slow motion capture.
+* Major refactor of legacy layers to enhance testability - went from zero tests to all use cases in the camera module having test coverage.
+* Wrote abstractions for the app's model layer, removing branching logic and mutable state, enhancing stability of the camera module.
+* Created a new, modern layout for the app's main video feed including custom animations, and 60fps scrolling.
+* Created an onboarding feature for highlighting any new app feature without updating the app.
+* Introduced and documented architecture best practices for onboarding new team members.
+
+{: .tag-list}
+* `SOLID`
+* `Dependancy Inversion`
+* `MVVM-C`
+* `Swift`
+* `Objective-C`
+* `AVFoundation`
+* `Texture`
+* `Github Actions`
+* `XCTest`
+* `Quick/Nimble`
+
+> {: .job-title}
 > ## Senior iOS Developer
-> <cite>Digital Staff Solutions Ltd, 2019 - Present</cite>
+> <cite>Digital Staff Solutions Ltd, 2019 - 2020</cite>
 
 Created the [Florence](https://apps.apple.com/gb/app/florence-nurse-carer-shifts/id1481958477) iOS app; allowing nurses and carers to book care home shifts on the move, and get paid.
 
