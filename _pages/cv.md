@@ -30,24 +30,10 @@ scss: cv
 
 [Triller](https://apps.apple.com/us/app/triller-social-video-platform/id994905763) has been a number 1 App Store app in 50 countries.
 
-* Collaborated on rebuilding the iOS app's camera from the ground up, with new features including multiple takes, take editing, slow motion capture.
-* Major refactor of legacy layers to enhance testability - went from zero tests to all use cases in the camera module having test coverage.
-* Wrote abstractions for the app's model layer, removing branching logic and mutable state, enhancing stability of the camera module.
-* Created a new, modern layout for the app's main video feed including custom animations, and 60fps scrolling.
-* Created an onboarding feature for highlighting any new app feature without updating the app.
-* Introduced and documented architecture best practices for onboarding new team members.
-
 {: .tag-list}
-* `SOLID`
-* `Dependancy Inversion`
 * `MVVM-C`
-* `Swift`
-* `Objective-C`
 * `AVFoundation`
 * `Texture`
-* `Github Actions`
-* `XCTest`
-* `Quick/Nimble`
 
 > {: .job-title}
 > ## Senior iOS Developer
@@ -73,11 +59,6 @@ Created the [Florence](https://apps.apple.com/gb/app/florence-nurse-carer-shifts
 * `Swift`
 * `Rails`
 * `Ruby`
-* `EventKit`
-* `Mixpanel`
-* `OneSignal`
-* `DeepLinking`
-* `CI`
 * `BitRise`
 
 > {: .job-title}
@@ -104,12 +85,8 @@ Created the [Raffler](https://www.telegraph.co.uk/men/thinking-man/raffler-intro
 * `XCTest`
 * `CoreAnimation`
 * `AVFoundation`
-* `Contacts` 
-* `MessageUI`  
 * `Mixpanel` 
-* `Firebase` 
-* `Native Ads`
-* `DeepLinking`
+* `Firebase`
 
 > {: .job-title}
 > ## iOS Developer
@@ -129,9 +106,7 @@ Developed [Mumsnet Talk](https://apps.apple.com/gb/app/mumsnet-talk/id437769914)
 * `Swift`
 * `Objective-C`
 * `XCTest`
-* `AlamoFire`
 * `CoreData`
-* `DeepLinking`
 
 > {: .job-title}
 > ## Contract iOS Developer
@@ -142,8 +117,6 @@ Created and relaunched [MindTools](https://apps.apple.com/gb/app/mind-tools/id42
 {: .tag-list}
 * `Objective-C`
 * `CoreData` 
-* `LinkedIn` 
-* `Facebook`
 
 > {: .job-title}
 > ## Contract iOS Developer
@@ -156,7 +129,6 @@ Created BRAINS; an enterprise iPad app used to provide analytics and visualise S
 * `CoreData` 
 * `CoreAnimation` 
 * `CoreLocation` 
-* `QuartzCore`
 
 > {: .job-title}
 > ## Contract iOS Developer
@@ -169,9 +141,5 @@ Developed SalesConnect; an enterprise iPad app featured in the [Financial Times]
 {: .tag-list}
 * `Objective-C`
 * `AVFoundation`
-* `QuartzCore`
 * `CoreAnimation` 
 * `CoreData` 
-* `Security` 
-* `Sharepoint` 
-* `SecurID`
