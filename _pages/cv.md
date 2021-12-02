@@ -25,19 +25,31 @@ scss: cv
 </div>
 
 > {: .job-title}
-> ## iOS Developer
-> <cite>Triller, 2020 - Present</cite>
+> ## Senior iOS Developer
+> <cite>Triller, Mar 2020 - Nov 2021</cite>
 
 [Triller](https://apps.apple.com/us/app/triller-social-video-platform/id994905763) has been a number 1 App Store app in 50 countries.
+
+{: .work-list}
+* Built a new camera interface from the ground up for arranging "takes" via drag and drop
+* Refactored the architecture for the camera use case, vastly improving unit test coverage
+* Rebuilt the projects screen from the ground up, improving time to load from 10+ seconds to milliseconds
+* Built a "feature highlight" capability for promoting new app features
+* Built a new video player for previewing and scrubbing through recordings in the camera
+* Collaborated on proof of concept for modularising the project
+* Proof of concept for moving authentication layer into a module, while maintaining compatibility with legacy code
+* Built a new login/registration flow from the ground up
+* Collaborated on moving a squad to an agile dev process
 
 {: .tag-list}
 * `MVVM-C`
 * `AVFoundation`
 * `Texture`
+* `SOLID`
 
 > {: .job-title}
 > ## Senior iOS Developer
-> <cite>Digital Staff Solutions Ltd, 2019 - 2020</cite>
+> <cite>Florence, Feb 2019 - Mar 2020</cite>
 
 Created the [Florence](https://apps.apple.com/gb/app/florence-nurse-carer-shifts/id1481958477) iOS app; allowing nurses and carers to book care home shifts on the move, and get paid.
 
@@ -63,7 +75,7 @@ Created the [Florence](https://apps.apple.com/gb/app/florence-nurse-carer-shifts
 
 > {: .job-title}
 > ## iOS Developer
-> <cite>Raflr Ltd, 2016 - 2018</cite>
+> <cite>Raffler, Mar 2016 - Aug 2018</cite>
 
 Created the [Raffler](https://www.telegraph.co.uk/men/thinking-man/raffler-introducing-the-app-that-could-win-you-1000-with-the-tou/) iOS app; a number one Lifestyle app in the UK and US.
 
@@ -90,7 +102,7 @@ Created the [Raffler](https://www.telegraph.co.uk/men/thinking-man/raffler-intro
 
 > {: .job-title}
 > ## iOS Developer
-> <cite>Mumsnet Ltd, 2014 - 2016</cite>
+> <cite>Mumsnet, Sep 2014 - Jan 2016</cite>
 
 Developed [Mumsnet Talk](https://apps.apple.com/gb/app/mumsnet-talk/id437769914); an app for accessing a social discussion forum with ten million users.
 
@@ -110,7 +122,7 @@ Developed [Mumsnet Talk](https://apps.apple.com/gb/app/mumsnet-talk/id437769914)
 
 > {: .job-title}
 > ## Contract iOS Developer
-> <cite>Mindtools Ltd, 2013 - 2014</cite>
+> <cite>Mindtools, 2013 - 2014</cite>
 
 Created and relaunched [MindTools](https://apps.apple.com/gb/app/mind-tools/id420985422); a universal app which acts as a library of business-related training articles, videos and learning tools.
 
@@ -132,7 +144,7 @@ Created BRAINS; an enterprise iPad app used to provide analytics and visualise S
 
 > {: .job-title}
 > ## Contract iOS Developer
-> <cite>Mubaloo Ltd, 2011</cite>
+> <cite>Mubaloo, 2011</cite>
 
 Developed SalesConnect; an enterprise iPad app featured in the [Financial Times](/assets/schroders-sales-connect.pdf). SalesConnect is used to manage, view and curate presentations from Microsoft Sharepoint documents, and was developed for the internal use of the investment bank Schroders.
 
