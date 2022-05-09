@@ -26,6 +26,13 @@ scss: cv
 
 > {: .job-title}
 > ## Senior iOS Developer
+> <cite>Napster, Dec 2021 - Present</cite>
+
+{: .work-list}
+* Built new in app purchase flow and business logic for company's upcoming app refresh
+
+> {: .job-title}
+> ## Senior iOS Developer
 > <cite>Triller, Mar 2020 - Nov 2021</cite>
 
 [Triller](https://apps.apple.com/us/app/triller-social-video-platform/id994905763) has been a number 1 App Store app in 50 countries.
