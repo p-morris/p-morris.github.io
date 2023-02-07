@@ -48,7 +48,7 @@ scss: cv
 
 > {: .job-title}
 > ## Senior iOS Developer
-> <cite>Napster, Dec 2021 - Present</cite>
+> <cite>Napster, Dec 2021 - June 2022</cite>
 
 {: .work-list}
 * Built new in app purchase flow and business logic for company's upcoming app refresh
