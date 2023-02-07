@@ -28,6 +28,8 @@ scss: cv
 > ## Lead iOS Engineer
 > <cite>Thread, June 2022 - Present</cite>
 
+[Thread](https://www.thesun.co.uk/sun-selects/17809393/thread-review/) was an AI-driven clothing retailer and personal styling service, recently acquired by [Marks and Spencer](https://corporate.marksandspencer.com/media/press-releases/ms-acquires-thread-ip-accelerate-its-personalisation-plans).   
+
 {: .work-list}
 * Moved CI pipelines to Xcode Cloud reducing costs >80%
 * Created build tools for finding and fixing code style problems automatically
