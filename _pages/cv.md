@@ -25,6 +25,26 @@ scss: cv
 </div>
 
 > {: .job-title}
+> ## Lead iOS Engineer
+> <cite>Thread, June 2022 - Present</cite>
+
+{: .work-list}
+* Moved CI pipelines to Xcode Cloud reducing costs >80%
+* Created build tools for finding and fixing code style problems automatically
+* Implemented content-driven features for users to find info about brands, style tips, and outfit suggestions
+* Introduced developer documentation for the iOS code base
+* Added use of SwiftUI state management APIs, simplifying propagation of state through the view hierarchy
+* Implemented a new design system, providing developer-friendly access to standardised typography, and colours
+* Developed a prototype to assess the use of Kotlin Multiplatform to share business logic between iOS and Android
+* Joined a hackday project to propose a feature for recommending clothing sizes based on past purchases
+
+{: .tag-list}
+* `MVVM`
+* `SwiftUI`
+* `Combine`
+* `Xcode Cloud`
+
+> {: .job-title}
 > ## Senior iOS Developer
 > <cite>Napster, Dec 2021 - Present</cite>
 
